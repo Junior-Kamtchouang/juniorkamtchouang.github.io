@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+#education {
+  font-family: "Montserrat", sans-serif;
+  color: #edf0f1;
+  max-width: 80%;
+  margin: auto;
+
+}
+
+
+.timeline {
+  position: relative;
+  justify-content: center;
+
+}
+.container {
+  padding: 20px 30px;
+  position: relative;
+  width: 50%;
+  /*background: bisque;*/
+}
+.text-box {
+  padding: 20px 30px;
+  border-radius: 6px;
+  position: relative;
+  font-size: 15px;
+  box-shadow: 2px 2px 2px 2px #1C1D21;
+}
+
+.text-box , .text-box p, small , h3{
+  background-color: #24252A;
+
+}
+.left-container {
+  left: 0;
+
+}
+.right-container {
+  left: 50%;
+
+}
+.material-symbols-outlined {
+  position: absolute;
+  border-radius: 50%;
+  right: -20px;
+  /*top: 32px;*/
+  z-index: 10;
+  background-color: bisque;
+  padding: 10px;
+  color: black;
+  margin-top: 50px;
+}
+.right-container .material-symbols-outlined {
+  left: -25px;
+  right: auto;
+}
+
+.timeline_middle{
+  position: absolute;
+  background-color: bisque;
+  width: 10px;
+  height: 100%;
+  height: 100%;
+  left: auto;
+  right: -3px;
+  margin-top: -20px;
+}
+.right-container .timeline_middle{
+  right: auto;
+  left: -7px;
+  height: 100%;
+
+
+}
+
+@media(max-width: 500px){
+  #education , #education h3{
+    text-align: center;
+    font-size: 15px;
+  }
+  #education p {
+    display: none;
+  }
+  #education small {
+    font-size: 8px;
+  }
+}
+@media(max-width: 400px){
+  #education, #education h3 {
+    font-size: 10px;
+  }
+
+}
+
+/*.timeline .timeline_middle{*/
+/*  position: fixed;*/
+/*  height: 100%;*/
+/*  width: 10px;*/
+/*  background-color: bisque;*/
+
+/*}*/
